@@ -1,6 +1,6 @@
 import math
 
 def przeciwprostokątna(a, b):
-    suma = (a*b)/2
-    return suma
-print("Długość przeciwprostokątnej wyniosi:",przeciwprostokątna(2, 4))
+    przeciwpros = math.sqrt(a ** 2 + b ** 2)
+    return przeciwpros
+print("Długość przeciwprostokątnej wyniosi:",przeciwprostokątna(22, 12))

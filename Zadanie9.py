@@ -16,4 +16,4 @@ def arytmetyczny(a1, r, ile):
             print(suma2)
     return suma2
 
-print(arytmetyczny(1,1,10))
+print(arytmetyczny(1,2,5))
