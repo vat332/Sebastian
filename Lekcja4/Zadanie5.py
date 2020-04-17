@@ -22,7 +22,6 @@ class ciagi_arytemtyczne:
             pomoc += 1
     def policz_sume(self , pierwszy_wyraz_ciagu , różnica , długość_ciągu):
         Suma_ciągu = 0
-        i = 0
         an = 0
         pomoc = 1
         self.pierwszy_wyraz_ciagu = pierwszy_wyraz_ciagu
