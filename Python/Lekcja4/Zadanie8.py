@@ -1,0 +1,1 @@
+zadanie 8 jest w 7

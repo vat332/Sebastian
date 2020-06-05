@@ -1,0 +1,45 @@
+Preludium:
+1. Utworzyć plik main.py na rozwiązania zadań
+2. Wczytać plik movie.csv do obiektu movies klasy DataFrame
+
+Zadania:
+1. (5 pkt) Utworzyć funkcję get_statistical_params, która zwróci podstawowe parametry statystyczne kolumn
+z obiektu movies, o najrzadziej występującym typie (wyznaczonym automatycznie), w postaci obiektu klasy DataFrame,
+gdzie indeksem będzie nazwa kolumny, a kolumnami będą parametry statystyczne, takie jak:
+- count - liczebność kolumny,
+- mean - średnia arytmetyczna,
+- std - odchylenie standardowe,
+- min - wartość minimalna,
+- 25% - pierwszy kwartyl,
+- 50% - drugi kwartyl,
+- 75% - trzeci kwartyl,
+- max - wartość największa.
+Funkcja musi również mieć możliwość dokonywania tej samej operacji dla innych ramek danych.
+
+2. (2 pkt) Utworzyć funkcję sort_columns, która przyjmie w parametrze obiekt klasy DataFrame
+i zwróci obiekt przyjęty w parametrze lecz z kolumnami posortowanymi alfabetycznie.
+Funkcja nie może modyfikować obiektu przyjętego w parametrze.
+
+3. (3 pkt) Utworzyć funkcję get_last_n_sums, która przyjmie w parametrze ramkę danych oraz
+liczbę wierszy branych pod uwagę w obliczeniach. Funkcja powinna zwracać sumy wartości
+w kolumnach numerycznych z n ostatnich wierszy ramki.
+
+4. (10 pkt) Przygotować punktowy wykres trójwymiarowy, gdzie:
+- oś X: wartości z kolumny actor_1_facebook_likes
+- oś Y: wartości z kolumny actor_2_facebook_likes
+- oś Z: wartości z kolumny actor_2_facebook_likes
+
+- kolor: wartość losowa całkowita od X do 4X
+- rozmiar: wartości z kolumny imdb_score
+- kształt: kwadrat
+
+Niech X będzie liczbą samogłosek w nazwisku, Y będzie sumą cyfr w numerze indeksu pomnożoną przez trzecią cyfrę numeru indeksu, Z będzie liczbą samogłosek w imieniu.
+
+Nanieść na osie etykiety zgodne z nazwami prezentowanych kolumn, wykres zatytułować dowolnie.
+Ograniczyć osie wykresu 3D do zakresu <a-b; a+b> dla każdej prezentowanej kolumny, gdzie:
+a oznacza średnią arytmetyczną wartości w kolumnie
+b oznacza odchylenie standardowe wartości w kolumnie
+
+Rozwiązania w folderze z numerem indeksu należy spakować do archiwum ZIP i wysłać jako załącznik na adres tomasz.krzywicki@matman.uwm.edu.pl.
+Wiadomość należy zatytułować następująco: "k2 v2 WD grupa [nr_grupy] [imie_i_nazwisko] [nr_indeksu]".
+Treść wiadomości powinna być taka sama, jak tytuł.
